@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.input-field {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 1.5rem 2rem;
+}
+.emojis {
+  padding: 1rem 1.5rem;
+  font-size: 26px;
+  cursor: pointer;
+}
+.text-title {
+  margin: 0.6rem 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .input-field {
+    padding: 0.4rem 1rem;
+    font-size: 16px;
+    margin: 1.2rem 0rem;
+  }
+  .emojis {
+    padding: 1rem 0.7rem;
+    font-size: 25px;
+  }
+}
